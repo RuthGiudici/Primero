@@ -1,0 +1,98 @@
+*{
+    Margin:0;
+    padding:0;
+}
+
+h1 {
+    color: rgba(0, 123, 255, 0.876);
+    text-align: center;
+    text-shadow: 1px 2px 1px rgb(182, 130, 238);
+    
+
+}
+
+h2{
+    text-align: center;
+}
+.MUSICA {
+    color: rgba(60, 0, 255, 0.792);
+
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 25rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgba(128, 128, 128, 0.368);
+
+}
+
+body {
+    background-image: url( https://media.es.wired.com/photos/6442dda9a566376ee967ba15/16:9/w_2560%2Cc_limit/The-Sludgification-Of-Music-Business-503493283.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.cajainstrumentos {
+    display: block;
+    flex-direction: row;
+    gap: 2rem;
+    width:;
+}
+input {
+    border-radius: 10px;
+    background-color: rgb(227, 227, 208);
+}
+
+input::placeholder{
+    padding: 5px;
+}
+
+.cajainstrumentos >input {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.cajainstrumentos >label{
+    text-align: center;
+}
+
+#Enviar {
+    display: flex;
+    left: 3rem;
+    position:relative;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+button {
+    background-color: rgba(0, 0, 255, 0.401);
+    width: 80px;
+    
+}
+button:hover {
+    cursor: pointer; 
+    scale: 1.5;
+    background-color: rgba(0, 0, 255, 0.644);
+    border: color black;
+}
+
+
+textarea {
+    border-radius: 10px;
+    width: 16rem;
+    height: 10rem;
+    background-color: rgb(227, 227, 208);
+}
+
+textarea::placeholder {
+    padding: 5px;
+}
